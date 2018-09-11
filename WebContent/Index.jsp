@@ -1,3 +1,7 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ page trimDirectiveWhitespaces="true"%>
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -14,7 +18,8 @@
 	href="assets/ico/apple-touch-icon-144-precomposed.png" />
 
 <!-- Bootstrap 설정 -->
-<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css"
+	href="assets/css/bootstrap.min.css" />
 
 <!-- 나눔고딕 웹 폰트 적용 -->
 <link rel="stylesheet" type="text/css" href="assets/css/nanumfont.css" />
@@ -33,8 +38,7 @@
 
 <style type="text/css">
 <!--
-헤더 고정탭으로 인해 올라간 body 태그 끌어 내리기+footer 공간 할당 -->
-.test {
+헤더 고정탭으로 인해 올라간 body 태그 끌어 내리기+footer 공간 할당 -->.test {
 	padding-top: 100px;
 	padding-bottom: 20px;
 	min-height: 900px;
@@ -46,24 +50,23 @@
 	padding-left: 10px;
 }
 
-.form-search{
+.form-search {
 	padding-right: 50px;
 }
 
 .container {
-
+	
 }
 
 body {
 	padding-top: 150px;
-	
 }
 
 footer {
 	padding-top: 300px;
 }
-
 </style>
+
 </head>
 <body>
 	<!-- header -->
@@ -77,15 +80,14 @@ footer {
 				<!-- 반응형 메뉴 버튼 -->
 				<button type="button" class="navbar-toggle" data-toggle="collapse"
 					data-target=".navbar-collapse">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
+					<span class="sr-only">Toggle navigation</span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
 				</button>
 
 				<!--// 반응형 메뉴 버튼 -->
 				<!-- 로고 -->
-				<a class="navbar-brand" href="index.html">Ballers 90</a>
+				<a class="navbar-brand" href="Index.jsp">Ballers 90</a>
 				<!--// 로고 -->
 			</div>
 			<!--// 로고 영역 -->
@@ -94,7 +96,7 @@ footer {
 			<div class="navbar-collapse collapse">
 
 				<ul class="nav navbar-nav">
-					<li><a href="board_main.html">커뮤니티</a></li>
+					<li><a href="Board_main.jsp">커뮤니티</a></li>
 					<li><a href="#">축구정보</a>
 				</ul>
 
@@ -110,7 +112,8 @@ footer {
 						<a href="#" title="로그인"><i class="glyphicon glyphicon-user"></i></a>
 					</div>
 					<div class="form-group">
-						<a href="#" title="회원가입"><i class="glyphicon glyphicon-plus-sign"></i></a>
+						<a href="#" title="회원가입"><i
+							class="glyphicon glyphicon-plus-sign"></i></a>
 					</div>
 				</form>
 				<!-- // 검색창 -->
@@ -125,11 +128,13 @@ footer {
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 text-center">
-				<a href="board_main.html"><img src="img/mainleft.jpg" class="img-circle" width="400" height="400" /></a>
-				<h1>커뮤니티</h1>			
+				<a href="Board_main.jsp"><img src="img/mainleft.jpg"
+					class="img-circle" width="400" height="400" /></a>
+				<h1>커뮤니티</h1>
 			</div>
 			<div class="col-md-6 text-center">
-				<a href="#"><img src="img/mainright.jpg" class="img-circle" width="400" height="400" /></a>
+				<a href="#"><img src="img/mainright.jpg" class="img-circle"
+					width="400" height="400" /></a>
 				<h1>축구정보</h1>
 			</div>
 		</div>
@@ -156,3 +161,5 @@ footer {
 	<script src="assets/js/bootstrap.min.js"></script>
 </body>
 </html>
+
+
