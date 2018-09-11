@@ -46,6 +46,10 @@
 	padding-right: 50px;
 }
 
+.thumbnail {
+	height: 500px;
+}
+
 body {
 	padding-top: 60px;
 }
@@ -110,10 +114,6 @@ footer {
 	</div>
 	<!--// end of header -->
 
-
-
-
-
 	<!-- 바디  -->
 	<div class="container">
 		<!-- 메뉴바 -->
@@ -143,86 +143,91 @@ footer {
 
 		<ol class="breadcrumb">
 			<li><a href="#">칼럼</a></li>
-			<li class="right"><a href="#">더보기</a></li>
+			<li class="pull-right"><a href="#">더보기</a></li>
 		</ol>
 
 		<div class="row">
-			<!-- 게시물 하나 시작 -->
-			<div class="col-sm-6 col-md-3">
-				<div class="thumbnail">
-					<img alt="썸네일" src="img/pro1.jpg">
-					<div class="caption">
-						<h3>용수의 독수리 슛강좌</h3>
-						<br />
-						<p>하늘위로 날아올라~</p>
-						<p>
-							<a href="#" class="btn btn-primary"><i
-								class="glyphicon glyphicon-heart"></i> 좋아요</a> <a href="#"
-								class="btn btn-info"><i class="glyphicon glyphicon-pencil"></i>
-								덧글쓰기</a>
-						</p>
+			<div class="container">
+				<!-- 게시물 하나 시작 -->
+				<div class="col-sm-6 col-md-3">
+					<div class="thumbnail">
+						<img alt="썸네일" src="img/pro1.jpg" width="90%">
+						<div class="caption">
+							<h3>용수의 독수리 슛강좌</h3>
+							<br />
+							<p>하늘위로 날아올라~</p>
+							<p>
+								<a href="#" class="btn btn-primary"> <i
+									class="glyphicon glyphicon-heart"></i> &nbsp;&nbsp;좋아요
+								</a> <a href="#" class="btn btn-info"> <i
+									class="glyphicon glyphicon-pencil"></i> &nbsp;&nbsp;덧글쓰기
+								</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- 게시물 하나 끝 -->
+				<!-- 게시물 하나 시작 -->
+				<div class="col-sm-6 col-md-3">
+					<div class="thumbnail">
+						<img alt="썸네일" src="img/pro2.jpg" width="90%">
+						<div class="caption">
+							<h3>홍명보의 인맥축구</h3>
+							<br />
+							<p>사회는 학연지연으로 이루어져 있다.</p>
+							<p>
+								<a href="#" class="btn btn-primary"> <i
+									class="glyphicon glyphicon-heart"></i> &nbsp;&nbsp;좋아요
+								</a> <a href="#" class="btn btn-info"> <i
+									class="glyphicon glyphicon-pencil"></i> &nbsp;&nbsp;덧글쓰기
+								</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<!--// 게시물 하나 끝 -->
+				<!-- 게시물 하나 시작 -->
+				<div class="col-sm-6 col-md-3">
+					<div class="thumbnail">
+						<img alt="썸네일" src="img/pro3.jpg" width="90%">
+						<div class="caption">
+							<h3>안정환의 니가뭘알아</h3>
+							<br />
+							<p>마음을 담아서...</p>
+							<p>
+								<a href="#" class="btn btn-primary"> <i
+									class="glyphicon glyphicon-heart"></i> &nbsp;&nbsp;좋아요
+								</a> <a href="#" class="btn btn-info"> <i
+									class="glyphicon glyphicon-pencil"></i> &nbsp;&nbsp;덧글쓰기
+								</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<!--// 게시물 하나 끝 -->
+				<!-- 게시물 하나 시작 -->
+				<div class="col-sm-6 col-md-3">
+					<div class="thumbnail">
+						<img alt="썸네일" src="img/pro4.jpg" width="90%">
+						<div class="caption">
+							<h3>주영이의 모나코영주권</h3>
+							<br />
+							<p>명보형이 시켰서요.</p>
+							<p>
+								<a href="#" class="btn btn-primary"> <i
+									class="glyphicon glyphicon-heart"></i> &nbsp;&nbsp;좋아요
+								</a> <a href="#" class="btn btn-info"> <i
+									class="glyphicon glyphicon-pencil"></i> &nbsp;&nbsp;덧글쓰기
+								</a>
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
-			<!-- 게시물 하나 끝 -->
-			<!-- 게시물 하나 시작 -->
-			<div class="col-sm-6 col-md-3">
-				<div class="thumbnail">
-					<img alt="썸네일" src="img/pro2.jpg">
-					<div class="caption">
-						<h3>홍명보의 인맥축구</h3>
-						<br />
-						<p>사회는 학연지연으로 이루어져 있다.</p>
-						<p>
-							<a href="#" class="btn btn-primary"><i
-								class="glyphicon glyphicon-heart"></i> 좋아요</a> <a href="#"
-								class="btn btn-info"><i class="glyphicon glyphicon-pencil"></i>
-								덧글쓰기</a>
-						</p>
-					</div>
-				</div>
-			</div>
-			<!--// 게시물 하나 끝 -->
-			<!-- 게시물 하나 시작 -->
-			<div class="col-sm-6 col-md-3">
-				<div class="thumbnail">
-					<img alt="썸네일" src="img/pro3.jpg">
-					<div class="caption">
-						<h3>안정환의 니가뭘알아</h3>
-						<br />
-						<p>마음을 담아서...</p>
-						<p>
-							<a href="#" class="btn btn-primary"><i
-								class="glyphicon glyphicon-heart"></i> 좋아요</a> <a href="#"
-								class="btn btn-info"><i class="glyphicon glyphicon-pencil"></i>
-								덧글쓰기</a>
-						</p>
-					</div>
-				</div>
-			</div>
-			<!--// 게시물 하나 끝 -->
-			<!-- 게시물 하나 시작 -->
-			<div class="col-sm-6 col-md-3">
-				<div class="thumbnail">
-					<img alt="썸네일" src="img/pro4.jpg">
-					<div class="caption">
-						<h3>주영이의 모나코영주권</h3>
-						<br />
-						<p>명보형이 시켰서요.</p>
-						<p>
-							<a href="#" class="btn btn-primary"><i
-								class="glyphicon glyphicon-heart"></i> 좋아요</a> <a href="#"
-								class="btn btn-info"><i class="glyphicon glyphicon-pencil"></i>
-								덧글쓰기</a>
-						</p>
-					</div>
-				</div>
-			</div>
-
 			<div class="col-md-6">
 				<ol class="breadcrumb">
 					<li><a href="#">자유게시판</a></li>
-					<li class="right"><a href="#">더보기</a></li>
+					<li class="pull-right"><a href="#">더보기</a></li>
 				</ol>
 
 				<div class="media">
@@ -256,7 +261,7 @@ footer {
 
 				<div class="media">
 					<a class="pull-left" href="#"> <img class="media-object"
-						src="img/normal2.jpg" alt="썸네일]">
+						src="img/normal2.jpg" alt="썸네일">
 					</a>
 					<div class="media-body">
 						<h4 class="media-heading">리중딱클라스</h4>
@@ -276,56 +281,77 @@ footer {
 					</div>
 				</div>
 			</div>
+		</div>
 
 
-			<div class="col-md-6">
+		<div class="col-md-6">
 
-				<ol class="breadcrumb">
-					<li><a href="#">예측게시판</a></li>
-					<li class="right"><a href="#">더보기</a></li>
-				</ol>
-			</div>
+			<ol class="breadcrumb">
+				<li><a href="#">예측게시판</a></li>
+				<li class="pull-right"><a href="#">더보기</a></li>
+			</ol>
 
 			<h3>장소 : 올드 트레퍼드</h3>
 			<h3>시간 : 18.08.01 19:00</h3>
 
-			<div class="media text-center">
+			<div class="container col-md-12">
 				<!-- 이미지 왼쪽 배치 -->
-				<a class="pull-left" href="#"> <img class="media-object"
-					src="img/team1.png" alt="도심의 야경">
-				</a> vs <a class="pull-right" href="#"> <img class="media-object"
-					src="img/team2.png" alt="도심의 야경">
-				</a>
+				<div class=" col-md-5 ">
+					<a class="center-block" href="#"> <img
+						class="media-object img-responsive center-block "
+						src="img/team1.png" alt="도심의 야경" width="150px">
+					</a>
+				</div>
+				<div class=" col-md-2 col-lg-2">
+					<a class="center-block" href="#"> <img
+						class="media-object img-responsive center-block "
+						src="img/vs1.png" alt="도심의 야경" width="100px">
+					</a>
+				</div>
+				<div class=" col-md-5 ">
+					<a class="center-block" href="#"> <img
+						class="media-object img-responsive center-block"
+						src="img/team2.png" alt="도심의 야경" width="150px">
+					</a>
+				</div>
 
 			</div>
+
 			<hr />
-			<div class="progress">
-				<!-- progress-bar-success 적용 -->
-				<div class="progress-bar progress-bar-success" role="progressbar"
-					aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"
-					style="width: 40%">
-					<span class="sr-only">40% Complete (success)</span>
-				</div>
-			</div>
-			<div class="progress">
-				<!-- progress-bar-info 적용 -->
-				<div class="progress-bar progress-bar-info" role="progressbar"
-					aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"
-					style="width: 20%">
-					<span class="sr-only">20% Complete</span>
-				</div>
-			</div>
-			<div class="progress">
-				<!-- progress-bar-warning 적용 -->
-				<div class="progress-bar progress-bar-danger" role="progressbar"
-					aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
-					style="width: 60%">
-					<span class="sr-only">60% Complete (warning)</span>
+
+			<div class=" col-md-12 ">
+				<div class="progress">
+					<!-- progress-bar-success 적용 -->
+					<div class="progress-bar progress-bar-success" role="progressbar"
+						aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"
+						style="width: 40%">
+						<span class="sr-only">40% Complete (success)</span>
+					</div>
 				</div>
 			</div>
 
+			<div class=" col-md-12 ">
+				<div class="progress">
+					<!-- progress-bar-info 적용 -->
+					<div class="progress-bar progress-bar-info" role="progressbar"
+						aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"
+						style="width: 20%">
+						<span class="sr-only">20% Complete</span>
+					</div>
+				</div>
+			</div>
+
+			<div class=" col-md-12 ">
+				<div class="progress">
+					<!-- progress-bar-warning 적용 -->
+					<div class="progress-bar progress-bar-danger" role="progressbar"
+						aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+						style="width: 60%">
+						<span class="sr-only">60% Complete (warning)</span>
+					</div>
+				</div>
+			</div>
 		</div>
-
 	</div>
 
 	<!-- 내용영역 -->
