@@ -37,7 +37,7 @@
 
 <style type="text/css">
 <!-- 헤더에 들어가는 glyphicon 설정 -->
-.header_glyphicon {
+.glyphicon {
 	color: white;
 	font-size: 25px;
 	padding-left: 10px;
@@ -64,7 +64,6 @@ footer {
 .bread_color{
 	background: black;
 }
-
 
 </style>
 </head>
@@ -105,15 +104,21 @@ footer {
 					<div class="form-group">
 						<input type="text" class="form-control" placeholder="검색" />
 					</div>
+					
+					<!-- Glyphicon css 태그 적용(스파게티) -->
 					<div class="form-group">
-						<a href="#" title="검색"><i class="glyphicon glyphicon-search header_glyphicon"></i></a>
+						<a href="#" title="검색"><i class="glyphicon glyphicon-search" style="color: white; font-size: 30px"></i></a>
 					</div>
+					
+					<!-- Glyphicon css 태그 적용(스파게티) -->
 					<div class="form-group">
-						<a href="#" title="로그인"><i class="glyphicon glyphicon-user header_glyphicon"></i></a>
+						<a href="#" title="로그인"><i class="glyphicon glyphicon-user" style="color: white; font-size: 30px"></i></a>
 					</div>
+					
+					<!-- Glyphicon css 태그 적용(스파게티) -->
 					<div class="form-group">
 						<a href="#" title="회원가입"><i
-							class="glyphicon glyphicon-plus-sign header_glyphicon"></i></a>
+							class="glyphicon glyphicon-plus-sign" style="color: white; font-size: 30px"></i></a>
 					</div>
 				</form>
 				<!-- // 검색창 -->
@@ -149,8 +154,9 @@ footer {
 			</div>
 		</nav>
 		<!--// 메뉴바 -->
-
-		<ol class="breadcrumb bread_color">
+		
+		<!-- breadcrumb css 속성 적용(스파게티) -->
+		<ol class="breadcrumb bread_color" style="background: #87cefa">
 			<li><a href="#">칼럼</a></li>
 			<li class="pull-right"><a href="#">더보기</a></li>
 		</ol>
@@ -235,7 +241,9 @@ footer {
 			</div>
 
 			<div class="col-md-6">
-				<ol class="breadcrumb bread_color">
+			
+				<!-- breadcrumb css 속성 적용(스파게티) -->
+				<ol class="breadcrumb bread_color" style="background: #87cefa">
 					<li><a href="#">자유게시판</a></li>
 					<li class="pull-right"><a href="#">더보기</a></li>
 				</ol>
@@ -295,8 +303,8 @@ footer {
 
 
 			<div class="col-md-6">
-
-				<ol class="breadcrumb bread_color">
+				<!-- breadcrumb css 속성 적용(스파게티) -->
+				<ol class="breadcrumb bread_color" style="background: #87cefa">
 					<li><a href="#">예측게시판</a></li>
 					<li class="pull-right"><a href="#">더보기</a></li>
 				</ol>
