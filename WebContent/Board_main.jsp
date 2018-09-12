@@ -36,27 +36,36 @@
 <![endif]-->
 
 <style type="text/css">
-.glyphicon {
+<!-- 헤더에 들어가는 glyphicon 설정 -->
+.header_glyphicon {
 	color: white;
 	font-size: 25px;
 	padding-left: 10px;
 }
 
-.form-search {
-	padding-right: 50px;
-}
-
-.thumbnail {
-	height: 500px;
-}
-
+<!-- header에 의해 가려지는 body 태그 내리는 설정 -->
 body {
 	padding-top: 60px;
 }
 
+<!-- footer 하단으로 보내는 설정 -->
 footer {
 	padding-top: 300px;
 }
+
+<!-- 좋아요, 댓글쓰기 내부 glyphicon 설정  -->
+.LikeComment{
+	font-size: 12px;
+	padding-left: 0;
+	padding-right: 10px;
+}
+
+<!-- breadcrumb 색상 설정 -->
+.bread_color{
+	background: black;
+}
+
+
 </style>
 </head>
 <body>
@@ -97,14 +106,14 @@ footer {
 						<input type="text" class="form-control" placeholder="검색" />
 					</div>
 					<div class="form-group">
-						<a href="#" title="검색"><i class="glyphicon glyphicon-search"></i></a>
+						<a href="#" title="검색"><i class="glyphicon glyphicon-search header_glyphicon"></i></a>
 					</div>
 					<div class="form-group">
-						<a href="#" title="로그인"><i class="glyphicon glyphicon-user"></i></a>
+						<a href="#" title="로그인"><i class="glyphicon glyphicon-user header_glyphicon"></i></a>
 					</div>
 					<div class="form-group">
 						<a href="#" title="회원가입"><i
-							class="glyphicon glyphicon-plus-sign"></i></a>
+							class="glyphicon glyphicon-plus-sign header_glyphicon"></i></a>
 					</div>
 				</form>
 				<!-- // 검색창 -->
@@ -141,7 +150,7 @@ footer {
 		</nav>
 		<!--// 메뉴바 -->
 
-		<ol class="breadcrumb">
+		<ol class="breadcrumb bread_color">
 			<li><a href="#">칼럼</a></li>
 			<li class="pull-right"><a href="#">더보기</a></li>
 		</ol>
@@ -158,9 +167,9 @@ footer {
 							<p>하늘위로 날아올라~</p>
 							<p>
 								<a href="#" class="btn btn-primary"> <i
-									class="glyphicon glyphicon-heart"></i> &nbsp;&nbsp;좋아요
+									class="glyphicon glyphicon-heart LikeComment"></i> &nbsp;&nbsp;좋아요
 								</a> <a href="#" class="btn btn-info"> <i
-									class="glyphicon glyphicon-pencil"></i> &nbsp;&nbsp;덧글쓰기
+									class="glyphicon glyphicon-pencil LikeComment"></i> &nbsp;&nbsp;덧글쓰기
 								</a>
 							</p>
 						</div>
@@ -177,9 +186,9 @@ footer {
 							<p>사회는 학연지연으로 이루어져 있다.</p>
 							<p>
 								<a href="#" class="btn btn-primary"> <i
-									class="glyphicon glyphicon-heart"></i> &nbsp;&nbsp;좋아요
+									class="glyphicon glyphicon-heart LikeComment"></i> &nbsp;&nbsp;좋아요
 								</a> <a href="#" class="btn btn-info"> <i
-									class="glyphicon glyphicon-pencil"></i> &nbsp;&nbsp;덧글쓰기
+									class="glyphicon glyphicon-pencil LikeComment"></i> &nbsp;&nbsp;덧글쓰기
 								</a>
 							</p>
 						</div>
@@ -196,9 +205,9 @@ footer {
 							<p>마음을 담아서...</p>
 							<p>
 								<a href="#" class="btn btn-primary"> <i
-									class="glyphicon glyphicon-heart"></i> &nbsp;&nbsp;좋아요
+									class="glyphicon glyphicon-heart LikeComment"></i> &nbsp;&nbsp;좋아요
 								</a> <a href="#" class="btn btn-info"> <i
-									class="glyphicon glyphicon-pencil"></i> &nbsp;&nbsp;덧글쓰기
+									class="glyphicon glyphicon-pencil LikeComment"></i> &nbsp;&nbsp;덧글쓰기
 								</a>
 							</p>
 						</div>
@@ -215,17 +224,18 @@ footer {
 							<p>명보형이 시켰서요.</p>
 							<p>
 								<a href="#" class="btn btn-primary"> <i
-									class="glyphicon glyphicon-heart"></i> &nbsp;&nbsp;좋아요
+									class="glyphicon glyphicon-heart LikeComment"></i> &nbsp;&nbsp;좋아요
 								</a> <a href="#" class="btn btn-info"> <i
-									class="glyphicon glyphicon-pencil"></i> &nbsp;&nbsp;덧글쓰기
+									class="glyphicon glyphicon-pencil LikeComment"></i> &nbsp;&nbsp;덧글쓰기
 								</a>
 							</p>
 						</div>
 					</div>
 				</div>
 			</div>
+
 			<div class="col-md-6">
-				<ol class="breadcrumb">
+				<ol class="breadcrumb bread_color">
 					<li><a href="#">자유게시판</a></li>
 					<li class="pull-right"><a href="#">더보기</a></li>
 				</ol>
@@ -281,73 +291,74 @@ footer {
 					</div>
 				</div>
 			</div>
-		</div>
 
 
-		<div class="col-md-6">
 
-			<ol class="breadcrumb">
-				<li><a href="#">예측게시판</a></li>
-				<li class="pull-right"><a href="#">더보기</a></li>
-			</ol>
+			<div class="col-md-6">
 
-			<h3>장소 : 올드 트레퍼드</h3>
-			<h3>시간 : 18.08.01 19:00</h3>
+				<ol class="breadcrumb bread_color">
+					<li><a href="#">예측게시판</a></li>
+					<li class="pull-right"><a href="#">더보기</a></li>
+				</ol>
 
-			<div class="container col-md-12">
-				<!-- 이미지 왼쪽 배치 -->
-				<div class=" col-md-5 ">
-					<a class="center-block" href="#"> <img
-						class="media-object img-responsive center-block "
-						src="img/team1.png" alt="도심의 야경" width="150px">
-					</a>
+				<h3>장소 : 올드 트레퍼드</h3>
+				<h3>시간 : 18.08.01 19:00</h3>
+
+				<div class="container col-md-12">
+					<!-- 이미지 왼쪽 배치 -->
+					<div class=" col-md-5 ">
+						<a class="center-block" href="#"> <img
+							class="media-object img-responsive center-block "
+							src="img/team1.png" alt="도심의 야경" width="150px">
+						</a>
+					</div>
+					<div class=" col-md-2 col-lg-2">
+						<a class="center-block" href="#"> <img
+							class="media-object img-responsive center-block "
+							src="img/vs1.png" alt="도심의 야경" width="100px">
+						</a>
+					</div>
+					<div class=" col-md-5 ">
+						<a class="center-block" href="#"> <img
+							class="media-object img-responsive center-block"
+							src="img/team2.png" alt="도심의 야경" width="150px">
+						</a>
+					</div>
+
 				</div>
-				<div class=" col-md-2 col-lg-2">
-					<a class="center-block" href="#"> <img
-						class="media-object img-responsive center-block "
-						src="img/vs1.png" alt="도심의 야경" width="100px">
-					</a>
-				</div>
-				<div class=" col-md-5 ">
-					<a class="center-block" href="#"> <img
-						class="media-object img-responsive center-block"
-						src="img/team2.png" alt="도심의 야경" width="150px">
-					</a>
-				</div>
 
-			</div>
+				<hr />
 
-			<hr />
-
-			<div class=" col-md-12 ">
-				<div class="progress">
-					<!-- progress-bar-success 적용 -->
-					<div class="progress-bar progress-bar-success" role="progressbar"
-						aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"
-						style="width: 40%">
-						<span class="sr-only">40% Complete (success)</span>
+				<div class=" col-md-12 ">
+					<div class="progress">
+						<!-- progress-bar-success 적용 -->
+						<div class="progress-bar progress-bar-success" role="progressbar"
+							aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"
+							style="width: 40%">
+							<span class="sr-only">40% Complete (success)</span>
+						</div>
 					</div>
 				</div>
-			</div>
 
-			<div class=" col-md-12 ">
-				<div class="progress">
-					<!-- progress-bar-info 적용 -->
-					<div class="progress-bar progress-bar-info" role="progressbar"
-						aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"
-						style="width: 20%">
-						<span class="sr-only">20% Complete</span>
+				<div class=" col-md-12 ">
+					<div class="progress">
+						<!-- progress-bar-info 적용 -->
+						<div class="progress-bar progress-bar-info" role="progressbar"
+							aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"
+							style="width: 20%">
+							<span class="sr-only">20% Complete</span>
+						</div>
 					</div>
 				</div>
-			</div>
 
-			<div class=" col-md-12 ">
-				<div class="progress">
-					<!-- progress-bar-warning 적용 -->
-					<div class="progress-bar progress-bar-danger" role="progressbar"
-						aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
-						style="width: 60%">
-						<span class="sr-only">60% Complete (warning)</span>
+				<div class=" col-md-12 ">
+					<div class="progress">
+						<!-- progress-bar-warning 적용 -->
+						<div class="progress-bar progress-bar-danger" role="progressbar"
+							aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+							style="width: 60%">
+							<span class="sr-only">60% Complete (warning)</span>
+						</div>
 					</div>
 				</div>
 			</div>
